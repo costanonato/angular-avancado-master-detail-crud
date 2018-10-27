@@ -9,7 +9,7 @@
 <div class="row mb-4">
   <div class="col-md">
     <h1 class="h2 border-left pl-2">
-      Formulário de categoria
+      Formulário de categoria {{currentAction}}
     </h1>
   </div>
   <div class="col-md">
@@ -20,7 +20,7 @@
 </div>
 
 
-<form>
+<form [formGroup]="categoryForm">
 
   <div class="card">
     <div class="card-header">
